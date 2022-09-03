@@ -1,20 +1,29 @@
-/*  Common CSS start  */
-body{}
+/*Common CSS start  */
+body{
+	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ 	font-weight: 400;
+ 	font-size: 16px;
+ 	color: #0F2656;
+}
 /*  Common CSS end  */
 
 /*  Header start  */
-header{}
+header{
+	padding: 20px 0;
+}
 .container {
 	margin: 0 auto;
 	width: 90%;
 	overflow: hidden;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
 .logo {
 	width: 10%;
 	float: left;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 .logo a{
 	display: block;
@@ -26,10 +35,9 @@ header{}
 .menu {
 	width: 50%;
 	float: right;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 .menu ul{
-	display: block;
 	float: right;
 }
 .menu ul li{
@@ -40,9 +48,6 @@ header{}
 	display: inline-block;
 	text-decoration: none;
 	padding: 0.5px 25px;
-	font-size: 16px;
-	font-family: sans-serif;
-	font-weight: 400;
 	color: #0F2656;
 }
 .menu ul li:last-child a{
@@ -51,4 +56,86 @@ header{}
 .menu ul li a:hover{
 	color: #008AFF;
 }
+/*  Border Line start  */
+.b-line{
+	margin: 12px 0 8px;
+	border: 1px solid #EEF0F3;
+}
+/*  Border Line end  */
 /*  Header end  */
+
+/*  Banner Section start  */
+.banner {
+	padding: 40px 0 70px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 60%;
+	/*border: 1px solid red;*/
+}
+
+.b_content {
+	text-align: center;
+}
+.b_content h1{
+	margin: 0;
+	font-size: 60px;
+	line-height: 75px;
+}
+.b_content h1 span{
+	color: #008AFF;
+}
+.b_content p{
+	margin: 10px 0 25px;
+	padding: 0 22px;
+	line-height: 30px;
+}
+
+.b-img {
+	margin: 0 auto;
+    width: 75%;
+}
+.b-img img{
+	width: 100%;
+}
+/*  Banner Section end  */
+
+/*  Feature Section start  */
+.feature{
+	padding: 60px 0;
+}
+
+.f_content{
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.f_left{
+	padding: 0 0 0 20px;
+	width: 45%;
+	text-align: right;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.f_left h2{
+	margin: 0;
+	font-size: 40px;
+	color: #F15767;
+}
+.f_left p{
+	margin: 10px 0 0;
+	padding: 0 10px;
+	font-weight: 300;
+	line-height: 25px;
+}
+.f_right{
+	padding: 0 25px 0 0;
+	width: 45%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.f_right h1{
+	margin: 0;
+    font-size: 46px;
+}
+/*  Feature Section end  */
