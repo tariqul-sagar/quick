@@ -99,11 +99,7 @@ header{
 
 /*  Feature Section start  */
 .feature{
-<<<<<<< HEAD
 	padding: 50px 0 70px;
-=======
-	padding: 30px 0 60px;
->>>>>>> 52f5bc7a6e27eb1293c7b19945ad694a26720625
 }
 
 .f_content{
@@ -136,7 +132,6 @@ header{
     font-size: 46px;
 }
 /*  Feature Section end  */
-<<<<<<< HEAD
 
 
 /*  Service CSS start  */
@@ -199,5 +194,3 @@ footer{
 	color: #0F2656;
 }
 /*  Footer CSS end  */
-=======
->>>>>>> 52f5bc7a6e27eb1293c7b19945ad694a26720625
