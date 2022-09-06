@@ -17,13 +17,11 @@ header{
 	margin: 0 auto;
 	width: 90%;
 	overflow: hidden;
-	/*border: 1px solid red;*/
 }
 
 .logo {
 	width: 10%;
 	float: left;
-	/*border: 1px solid black;*/
 }
 .logo a{
 	display: block;
@@ -35,7 +33,6 @@ header{
 .menu {
 	width: 50%;
 	float: right;
-	/*border: 1px solid black;*/
 }
 .menu ul{
 	float: right;
@@ -66,13 +63,12 @@ header{
 
 /*  Banner Section start  */
 .banner {
-	padding: 40px 0 70px;
+	padding: 40px 0 30px;
 }
 
 .wrapper {
 	margin: 0 auto;
 	width: 60%;
-	/*border: 1px solid red;*/
 }
 
 .b_content {
@@ -103,19 +99,17 @@ header{
 
 /*  Feature Section start  */
 .feature{
-	padding: 60px 0;
+	padding: 50px 0 70px;
 }
 
 .f_content{
-	/*border: 1px solid black;*/
 	overflow: hidden;
 }
 .f_left{
-	padding: 0 0 0 20px;
+	padding: 0 0 0 30px;
 	width: 45%;
 	text-align: right;
 	float: left;
-	/*border: 1px solid red;*/
 }
 .f_left h2{
 	margin: 0;
@@ -129,13 +123,74 @@ header{
 	line-height: 25px;
 }
 .f_right{
-	padding: 0 25px 0 0;
+	padding: 0 30px 0 0;
 	width: 45%;
 	float: right;
-	/*border: 1px solid red;*/
 }
 .f_right h1{
 	margin: 0;
     font-size: 46px;
 }
 /*  Feature Section end  */
+
+
+/*  Service CSS start  */
+.service{
+	padding: 40px 0 70px;
+}
+.service-content{
+	overflow: hidden;
+}
+.service-box{
+	margin-right: 2%;
+	float: left;
+	width: 28%;
+	padding: 50px 2%;
+}
+.service-box:last-child{
+	margin-right: 0;
+}
+.pink{
+	background-color: #FDEBED;
+}
+.blue{
+	background-color: #EBF9F4;
+}
+.pinklight{
+	background-color: #FFF7E8;
+}
+.s-img{}
+.s-img img{
+	width: 100%;
+}
+.s_h2{
+	margin: 20px 0;
+	font-size: 25px;
+}
+.s_p{
+	margin: 0;
+	line-height: 25px;
+}
+/*  Service CSS end  */
+
+/*  Footer CSS start  */
+footer{
+	padding: 15px 0;
+	background-color: #008aff;
+}
+.footer-content{
+	text-align: center;
+}
+.footer-content p{
+	color: #9EC7FF;
+}
+.footer-content p a{
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #ffffff;
+}
+.footer-content p a:hover{
+	color: #0F2656;
+}
+/*  Footer CSS end  */
